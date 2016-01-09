@@ -18,8 +18,3 @@ function loadWeather(location, woeid) {
 		}
 	});
 }
-
-
-$(document).ready(function() {
-	loadWeather('Hamburg','2345484'); //@params location, woeid
-});

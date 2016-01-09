@@ -1,17 +1,5 @@
-var _app = {};
+@import 'modules/_weather.js';
 
-@import 'modules/_helloWorld.js';
-
-
-
-(function(ns) { // ns ~ namespace
-
-    function init() {
-
-        ns.helloWorld(d); // _helloWorld.js
-
-    }
-
-    init();
-
-})(_app);
+$(document).ready(function() {
+	loadWeather('Hamburg','2345484'); //@params location, woeid
+});
