@@ -4,4 +4,5 @@ This is a single page project to display useful, daily, information behind a one
 ### Planned
   - Weather information
   - News headlines
-  - Git commits
+  - Web dev headlines
+  - Maybe git commits 
