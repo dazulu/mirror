@@ -7,6 +7,7 @@ This is a single page project to display useful, daily, information behind a one
   - Web dev headlines
   - Maybe git commits 
 
-### Shoutouts
- Weather done with http://http://simpleweatherjs.com
- Weather icons from http://fonts.artill.de/collection/artill-weather-icons
+### Credits
+  - Weather info from http://http://simpleweatherjs.com
+  - Weather icons from http://fonts.artill.de/collection/artill-weather-icons
+  
