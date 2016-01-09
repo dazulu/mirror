@@ -18,8 +18,18 @@ body {
 	color: $color-copy;
 	font-family: $font-family-regular;
 	font-size: $font-size-regular;
+	font-weight: 300;
 }
 
 ul {
 	@extend %list-reset;
+
+	&.small {
+		font-size: $font-size-small;
+	}
+}
+
+.error {
+	color: firebrick;
+	font-size: 20px;
 }

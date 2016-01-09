@@ -1,35 +1,43 @@
 @font-face {
-    font-family: 'weather';
-    src: url('icons/artill_clean_icons-webfont.eot');
-    src: url('icons/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
-         url('icons/artill_clean_icons-webfont.woff') format('woff'),
-         url('icons/artill_clean_icons-webfont.ttf') format('truetype'),
-         url('icons/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'weather';
+	src: url('icons/artill_clean_icons-webfont.eot');
+	src: url('icons/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('icons/artill_clean_icons-webfont.woff') format('woff'),
+		 url('icons/artill_clean_icons-webfont.ttf') format('truetype'),
+		 url('icons/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 #weather {
 	position: absolute;
 	top: 30px;
 	left: 30px;
-	font-weight: 300;
-	font-size: 30px;
 
 	h2 {
-		margin: 0 0 20px 0;
+		margin: 0 0 0 0;
 		font-weight: 300;
-		font-size: 120px;
+		font-size: $font-size-large;
+	}
+}
+
+.forecast-today {
+	margin-bottom: 20px;
+}
+
+.forecast-week  {
+	li {
+		margin-bottom: 5px;
 	}
 }
 
 i {
-  color: #fff;
-  font-family: weather;
-  font-size: 150px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.0;
+	color: #fff;
+	font-family: weather;
+	font-size: 150px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.0;
 }
 
 .icon-0:before { content: ":"; }
