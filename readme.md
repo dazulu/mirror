@@ -1,13 +1,14 @@
 # Mirror HUD
-This is a single page project to display useful, daily, information behind a one-way mirror.
+This is a single page project to display useful, daily, information behind a one-way mirror or on any display.
 
 ### Planned
-  - Weather information
-  - News headlines
-  - Web dev headlines
-  - Maybe git commits 
+  - [x] Weather info
+  - [x] Time and date
+  - [ ] News headlines
+  - [ ] Last 3 git commit messages per user/repo
+  - [ ] Greeting message 
 
 ### Credits
-  - Weather info from http://http://simpleweatherjs.com
-  - Weather icons from http://fonts.artill.de/collection/artill-weather-icons
+  - Weather info: http://http://simpleweatherjs.com
+  - Weather icons: http://fonts.artill.de/collection/artill-weather-icons
   
