@@ -3,8 +3,12 @@
 @import 'modules/_time.js';
 
 $(document).ready(function() {
-	loadWeather(config.location, config.woeid); // (location, woeid)
+	if(config.showWeather) {
+		loadWeather(); // (location, woeid)
+	}
 
-	datetime(); // load time and date using MomentJS
-	setInterval(datetime, 1000); // update time and date each second
+	if(config.showTimeDate) {
+		datetime(); // load time and date using MomentJS
+		setInterval(datetime, 1000); // update time and date each second
+	}
 });

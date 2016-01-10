@@ -4,6 +4,7 @@ This is a single page project to display useful, daily, information behind a one
 ### Planned
   - [x] Weather info
   - [x] Time and date
+  - [x] Config file
   - [ ] News headlines
   - [ ] Last 3 git commit messages per user/repo
   - [ ] Greeting message 
