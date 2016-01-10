@@ -1,3 +1,9 @@
+var config = {
+	"location": "Hamburg",
+	"woeid": 2345484,
+	"timeFormat": 24, // 12 or 24 hour time
+	"greeting": "Hello"
+};
 // Docs at http://simpleweatherjs.com
 
 function loadWeather(location, woeid) {
@@ -38,20 +44,27 @@ function loadWeather(location, woeid) {
 // Docs at http://momentjs.com/docs/
 
 function datetime() {
+	var now = moment();
 	var target = document.getElementById("datetime");
-	var now = moment(); // get MomentJS date-time info
 	var html = '';
 
-	html += '<p class="time">' + now.format('H:mm') + '</p>';
+	html += '<p class="time">' + now.format(getTimeFormat()) + '</p>';
 	html += '<p class="date">' + now.format('dddd, MMMM Do YYYY') + '</p>'; 
 
 	target.innerHTML = html;
 }
 
+function getTimeFormat() {
+	if(config.timeFormat == 24) {
+		return "HH:mm";
+	} else {
+		return "h:mma";
+	}
+}
 
 $(document).ready(function() {
-	loadWeather('Hamburg','2345484'); // (location, woeid)
-	
+	loadWeather(config.location, config.woeid); // (location, woeid)
+
 	datetime(); // load time and date using MomentJS
 	setInterval(datetime, 1000); // update time and date each second
 });
