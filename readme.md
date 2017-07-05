@@ -10,6 +10,6 @@ This is a single page project to display useful, daily, information behind a one
   - [ ] Greeting message 
 
 ### Credits
-  - Weather info: http://http://simpleweatherjs.com
+  - Weather info: http://simpleweatherjs.com
   - Weather icons: http://fonts.artill.de/collection/artill-weather-icons
   
